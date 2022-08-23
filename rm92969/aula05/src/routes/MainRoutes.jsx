@@ -9,6 +9,8 @@ export default function MainRoutes() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/produtos" element={<Produtos />} />
-                <Route path=""
+                <Route path="/servicos" element={<Servicos />} />
+            </Routes>
+        </>
     )
 }
