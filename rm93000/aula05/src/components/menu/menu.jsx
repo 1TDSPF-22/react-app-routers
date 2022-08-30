@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
+import './Menu.css'
 
 export default function Menu() {
     return (
         <header>
-            <nav>
-                <ul>
-                    <li><Link to='/'>Home</Link></li>
-                    <li><Link to='/produtos'>Produtos</Link></li>
-                    <li><Link to='/servicos'>Servicos</Link></li>
-                    <li><Link to='/motivacao'>Motivacao</Link></li>
-                </ul>
+            <nav className="navBar1">
+                <Link to='/'>Home</Link>
+                <Link to='/produtos'>Produtos</Link>
+                <Link to='/servicos'>Servicos</Link>
+                <Link to='/motivacao'>Motivacao</Link>
+                <Link to='/formulario'>Formulario</Link>
             </nav>
         </header>
+
     )
 }
