@@ -1,0 +1,25 @@
+
+.navbar1{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar1 a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    padding: 1.4vh 1.6vw;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar1 a:HOVER{
+    background-color: #05BB7F;
+    color: #000000;
+}
+
+.navbar1 a:ACTIVE{
+    background-color: #ddd;
+    color: #000000;
+}
+
