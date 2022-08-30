@@ -1,5 +1,7 @@
 import React from 'react'
+import './Formulario.css'
 import { useState } from 'react'
+
 
 export default function Formulario(){
 
@@ -23,13 +25,29 @@ export default function Formulario(){
     return(
         <div>
             <h2>DADOS DO VEÍCULOS</h2>
-            <label>Marca :</label>
-            <input type="text" name="marca" onChange={mostraCarro} /><br/>
-            <label>Modelo :</label>
-            <input type="text name="modelo" /><br/>
-    
-            <p>Meu carro é um <span>Marca: <b>{carro.marca}</b> </span> - <span>Modelo> <b>{carro.modelo}</b> </span></p>
-        </div>
+            <div>
+                <form action="" method="get">
+                    <div className="row">
+                        <div className="col-25">
+                            <label>Marca</label>
+                        </div>
+                        <div className="col-75">
+                            <input type="text" name="marca" onChange={mostraCarro} />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-25">
+                            <label>Modelo</label>
+                        </div>
+                        <div className="col-75">
+                            <input type="text" name="modelo" onChange={mostraCarro} />
+                        </div>
+                    </div>
+                </form>
+            <div>
+
+            <p>Meu carro é um <span>Marca: <b>{carro.marca}</b> </span> - <span>Modelo <b>{carro.modelo}</b> </span></p>
+        </div > 
 
     )
 }
