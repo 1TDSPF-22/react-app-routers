@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react'
 
-export default function Produtos(){
+export default function Produtos() {
 
     const produtos = {
-        backgroundColor:'#bff',
-        height:'85vh',
-        textAlign:'center',
-        color:'#7cc'
+        backgroundColor: '#bff',
+        height: '85vh',
+        textAlign: 'center',
+        color: '#7cc'
     }
 
-    return(
+    return (
         <div style={produtos}>
-            <h1>Página de produtos</h1>
-            <p>Exemplo da página principal do projeto.</p>
+            <h1>Página de Produtos - PRODUTOS</h1>
+            <p>Exemplo de página de Produtos</p>
         </div>
     )
-}
+} 

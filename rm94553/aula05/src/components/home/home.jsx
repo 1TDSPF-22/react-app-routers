@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react'
 
-export default function Home(){
+export default function Home() {
 
     const home = {
-        backgroundColor:'#ffb',
-        height:'85vh',
-        textAlign:'center',
-        color:'orange'
+        backgroundColor: '#ffb',
+        height: '85vh',
+        textAlign: 'center',
+        color: 'orange'
     }
 
-    return(
+    return (
         <div style={home}>
-            <h1>Página Principal</h1>
-            <p>Exemplo da página principal do projeto.</p>
+            <h1>Página Principal-HOME</h1>
+            <p>Exemplo de página principal do projeto</p>
         </div>
     )
 }

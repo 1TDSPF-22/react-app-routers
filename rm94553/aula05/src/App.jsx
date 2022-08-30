@@ -1,22 +1,13 @@
-import React from "react";
-import Home from "./components/home/home"
-import Produtos from "./components/produtos/Produtos";
-import Servicos from "./components/servicos/Servicos";
-import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Menu from "./components/menu/Menu";
+import React from "react"
+import Menu from "./components/menu/Menu"
+import MainRoutes from "./routes/MainRoutes"
 
-export default function App(){
+export default function App() {
+    return (
+        <>
+            <Menu />
+            <MainRoutes />
+        </>
 
-    return(
-        <BrowserRouter>
-        <div><Menu/></div>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/produtos" element={<Produtos/>}/>
-                <Route path="/servicos" element={<Servicos/>}/>
-            </Routes>
-        </BrowserRouter>
-        
-        
     )
 }

@@ -1,18 +1,18 @@
-import React from "react";
+import React from 'react'
 
-export default function Servicos(){
+export default function Servicos() {
 
     const servicos = {
-        backgroundColor:'#bfb',
-        height:'85vh',
-        textAlign:'center',
-        color:'#7c7'
+        backgroundColor: '#bfb',
+        height: '85vh',
+        textAlign: 'center',
+        color: '#7c7'
     }
 
-    return(
+    return (
         <div style={servicos}>
-            <h1>Página de servicos</h1>
-            <p>Exemplo da página principal do projeto.</p>
+            <h1>Página de Serviços - SERVIÇOS</h1>
+            <p>Exemplo de página de Serviços</p>
         </div>
     )
 }
