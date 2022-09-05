@@ -15,7 +15,7 @@ export default function NovoValor(){
             <h1>Vamos escrever uma frase</h1>
             <div>
                 <label>Motivação</label>
-                <input type="text" name="txtFrase" onChange={()=> setFrase(e.target.value)} id="" />
+                <input type="text" name="txtFrase" onChange={(e)=> setFrase(e.target.value)} id="" />
                 <p>Motivação do dia : <span>{frase}</span></p>
             </div>
             <div>
